@@ -35,7 +35,8 @@ function addDogTrListener(dog, dogRow) {
 
 // event listener for edit dog form
 function addEventListenerToSubmitBtn(dogId) {
-  dogForm.addEventListener("submit", () => {
+  dogForm.addEventListener("submit", e => {
+    e.preventDefault();
     // debugger;
     // updated dog object:
     const dog = {
@@ -48,11 +49,13 @@ function addEventListenerToSubmitBtn(dogId) {
     // 1 - patch request to dogs/id with new dog object
     editDog(dog)
       // 2 - get request to allDogs will re-render the whole table
-      .then(allDogs);
+      .then(init);
   });
 }
 
 function allDogs(dogs) {
+  // after the promise has exectued so no flicker
+  dogTable.innerHTML = "";
   dogs.forEach(renderDog);
 }
 

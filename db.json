@@ -2,32 +2,32 @@
   "dogs": [
     {
       "id": 1,
-      "name": "Baby",
-      "breed": "PUG",
-      "sex": "male"
+      "name": "Gracie",
+      "breed": "Italian Pinscher",
+      "sex": "female"
     },
     {
       "id": 2,
       "name": "Teddy",
-      "breed": "LADY PUG",
+      "breed": "Lady Pug",
       "sex": "female"
     },
     {
       "id": 3,
       "name": "Snickers",
-      "breed": "Dachshund",
+      "breed": "CHOCOLATE LABRADOR",
       "sex": "female"
     },
     {
       "id": 4,
       "name": "Harvey",
-      "breed": "Irish Spaniel",
+      "breed": " Spaniel",
       "sex": "male"
     },
     {
       "id": 5,
       "name": "Gracie",
-      "breed": "Miniature Pinscher",
+      "breed": "Italian Pinscher",
       "sex": "female"
     },
     {
@@ -39,7 +39,7 @@
     {
       "id": 7,
       "name": "Diamond",
-      "breed": "Labrador",
+      "breed": "big Labrador",
       "sex": "female"
     },
     {
